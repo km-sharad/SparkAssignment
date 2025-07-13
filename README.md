@@ -1,6 +1,6 @@
 This application uses SBT for build.
 
-Prerequisite for building:
+Prerequisite for building:<br/>
 SBT
 Java version 17
 Spark version 3.5.1
