@@ -16,7 +16,7 @@ level value: 1 = aggregation by date; 2 = aggregation by date and hour
 
 Instructions for running:
 Sample command for daily aggregation:
-$SPARK_HOME/bin/spark-submit --class com.interview.assignment.TimeSeriesAggregator ./target/scala-2.12/assignment_2.12-1.0.jar data_in/input_data.csv data_out_date 1
+`$SPARK_HOME/bin/spark-submit --class com.interview.assignment.TimeSeriesAggregator ./target/scala-2.12/assignment_2.12-1.0.jar data_in/input_data.csv data_out_date 1`
 
 Sample command for hourly aggregation:
-$SPARK_HOME/bin/spark-submit --class com.interview.assignment.TimeSeriesAggregator ./target/scala-2.12/assignment_2.12-1.0.jar data_in/input_data.csv data_out_hour 2
+`$SPARK_HOME/bin/spark-submit --class com.interview.assignment.TimeSeriesAggregator ./target/scala-2.12/assignment_2.12-1.0.jar data_in/input_data.csv data_out_hour 2`
