@@ -11,8 +11,8 @@ Instructions for building: <br/>
 Run `sbt clean package` from the root of the repo
 
 Aplication execution command takes this form: <br/>
-TimeSeriesAggregator <ts_input_dataset> <ts_output_dataset> <level> <br/>
-level value: 1 = aggregation by date; 2 = aggregation by date and hour
+TimeSeriesAggregator <ts_input_dataset> <ts_output_dataset> <op_level> <br/>
+op_level value: 1 = aggregation by date; 2 = aggregation by date and hour
 
 Instructions for running: <br/>
 Sample command for daily aggregation: <br/>
